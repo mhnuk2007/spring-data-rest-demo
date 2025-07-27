@@ -14,7 +14,7 @@ A minimal and clean RESTful API to manage job postings using:
 - Full CRUD operations for JobPost entity
 - Custom search using method naming conventions
 - PostgreSQL integration for persistent storage
-- Loads demo data with a `/load` endpoint
+- Loads demo data with a `/load` endpoint *(implement if not present)*
 
 ---
 
@@ -35,8 +35,8 @@ A minimal and clean RESTful API to manage job postings using:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/jobpost-rest-api.git
-cd jobpost-rest-api
+git clone https://github.com/mhnuk2007/spring-data-rest-demo.git
+cd spring-data-rest-demo
 ```
 
 ### 2️⃣ Configure PostgreSQL
@@ -84,7 +84,7 @@ http://localhost:8080/jobPosts
 ```http
 GET /load
 ```
-Loads predefined job posts into the database.
+Loads predefined job posts into the database. *(If not implemented, remove or add this feature)*
 
 ---
 
