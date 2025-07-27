@@ -14,7 +14,6 @@ A minimal and clean RESTful API to manage job postings using:
 - Full CRUD operations for JobPost entity
 - Custom search using method naming conventions
 - PostgreSQL integration for persistent storage
-- Loads demo data with a `/load` endpoint *(implement if not present)*
 
 ---
 
